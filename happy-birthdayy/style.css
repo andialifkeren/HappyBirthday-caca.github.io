@@ -1,0 +1,112 @@
+/* Mengatur gaya untuk body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c; /* Latar belakang gelap */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Playfair display, Lora;
+}
+
+/* Halaman Cover Album */
+.album-cover {
+    background-color: #333; /* Background gelap untuk album */
+    padding: 40px 60px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 300px;
+    height: 250px;
+}
+
+.album-cover h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.open-album-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e67e22; /* Warna tombol */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.open-album-btn:hover {
+    background-color: #d35400; /* Warna tombol saat dihover */
+}
+
+/* Halaman Foto Album */
+.album-content {
+    display: none; /* Tidak ditampilkan awalnya */
+    background-color: #333;
+    padding: 40px 60px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 80%;
+    height: 80%;
+    overflow: auto;
+}
+
+.album-content h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.album-pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.page {
+    display: none;
+}
+
+.page img {
+    width: 300px;
+    margin: 15px;
+}
+
+/* Kotak teks yang ditambahkan */
+.text-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+}
+
+.text-box p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Tombol next */
+.next-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.next-btn:hover {
+    background-color: #d35400;
+}
